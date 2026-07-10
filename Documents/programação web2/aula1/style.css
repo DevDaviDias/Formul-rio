@@ -1,12 +1,32 @@
 body{
     background-color: rgb(118, 219, 219);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 
 }
 
 h1{
-
+   color:rgb(91, 91, 216);
 }
 
 input{
+ border: none;
+}
 
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+    justify-content: center;
+
+ 
+}
+
+button{
+    border: none;
 }
